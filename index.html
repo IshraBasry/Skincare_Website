@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Jardin de Mer</title>
+        <link rel="icon" href="img/web101lotus.png" type="image/png">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#event-schedule">Event Schedule</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><button id="theme-button">Toggle Dark Mode</button></li>
+            </ul>
+        </div>
+        <div class="header-container">
+            <div class="header-item">
+                <img id="header-img" src="./img/logo500.png"/>
+                <h1>Jardin de Mer</h1>
+                <h3>An oasis of hydration and radiance, inspired by earth.</h3>
+            </div>
+            <div class="header-item">
+                <button type="button">Browse Our Collection</button>
+                <button type="button">Explore Our Skincare Philosophy</button>
+            </div>
+        </div>
+        <h2 id="about">About the Event</h2>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/RUYC5ljx3vw" title="Korean Cosmetics Brand Video Commercial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>The Jardin de Mer Skincare Experience is an event focused on exploring the natural ingredients from the sea and plants to enhance your skincare routine. Designed for skincare enthusiasts, beauty lovers, and wellness seekers, this event will guide you through simple, effective tips and techniques. Join us to learn how to use ocean and botanical-based products to nourish and improve your skin's health in a simple and approachable way.</p>
+        <h3>What to Expect</h3>
+        <h4>Tag Line</h4>
+        <ul>
+            <li><b>Bullet 1:</b> <i>Expect to see beautiful skin.</i></li>
+            <li><b>Bullet 2:</b> <i>Products tailored to your needs.</i></li>
+            <li><b>Bullet 3:</b> <i>Our amazing support group to guide you on your journey.</i></li>
+        </ul>
+        <h2 id="event-schedule">Our Exclusives</h2>
+        <p>Powered by nature's finest ingredients, for a pure and radiant skincare experience.</p>
+        <img alt="Moody Woody body scrub infused with natural botanicals and nourishing oils." src="./img/web101branchscrub.jpg"/>
+        <h3>Moody Woody Exfoliating Scrub $30</h3>
+        <p>Moody Woody body scrub infused with natural botanicals and nourishing oils.</p>
+        <img alt="Infused with micellar technology and soothing chamomile." src="./img/web101whitebottle.jpg"/>
+        <h3>Microactive Cleansing Water $25</h3>
+        <p>Infused with micellar technology and soothing chamomile, this cleansing water gently removes impurities while refreshing your skin.</p>
+        <img alt="A rich blend of cedarwood and earthy botanicals." src="./img/web101browntube.jpg"/>
+        <h3>Cabinceder Luxe Body Cream $35</h3>
+        <p>A rich blend of cedarwood and earthy botanicals, this fragrance evokes the calming essence of a forest retreat.</p>
+        <div id="rsvp">
+            <h2>RSVP</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <section id="rsvp-section">
+                        <div id="rsvp-para">
+                            <p>Join our exclusive Skincare Wellness Workshop! Limited spots available - sign up today to glow with us!</p>
+                        </div>
+                        <div id="rsvp-participants">
+                            <p><strong>Sophia</strong> from New York</p>
+                            <p><strong>Jackson</strong> from California</p>
+                            <p><strong>Aria</strong> from Illinois</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="rsvp-participants">
+                    <p>🎟️ DJ from Texas has RSVP'd.</p>
+                    <p>🎟️ Amy from New York has RSVP'd.</p>
+                    <p>🎟️ Teresa from Montana has RSVP'd.</p>
+                </div>
+            </div>
+            <div class="rsvp-form">
+                <form id="rsvp-form">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="skin-type">Skin Type:</label><br>
+                    <select id="skin-type" name="skin-type">
+                        <option value="dry">Dry</option>
+                        <option value="oily">Oily</option>
+                        <option value="combination">Combination</option>
+                        <option value="sensitive">Sensitive</option>
+                    </select><br><br>
+                    <button type="submit">RSVP Now</button>
+                </form>
+            </div>
+        </div>
+        <div id="success-modal" class="modal">
+            <div class="modal-background"></div>
+            <div id="success-content-modal" class="modal-content">
+                <button class="close-modal">X</button>
+                <p id="modal-text">Thanks for RSVPing!</p>
+                <img id="modal-image" src="./img/web101olivegreen.jpg" alt="Thank you image" style="width: 100px; height: auto; margin-top: 20px;">
+            </div>
+        </div>
+        <h2 id="links">Links</h2>
+        <a class="block" href="https://www.byrdie.com/skincare-ingredients-glossary-4800556">
+            <article>
+                <h3>Skin Deep: From Soil to Serum</h3>
+                <p>An in-depth look at gentle, earth-sourced skincare practices designed to support healthy, radiant skin.</p>
+            </article>
+        </a>
+        <script src="index.js"></script>
+    </body>
+</html>
